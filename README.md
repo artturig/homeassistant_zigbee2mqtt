@@ -17,8 +17,8 @@ docker compose up -d
 
 ## sites used
 
-https://www.zigbee2mqtt.io/guide/installation/01_linux.html#determine-location-of-the-adapter-and-checking-user-permissions to find USB settings needed for zigbee2mqtt
-https://www.zigbee2mqtt.io/guide/getting-started/
-https://github.com/sukesh-ak/setup-mosquitto-with-docker
-https://www.home-assistant.io/installation/linux
+https://www.zigbee2mqtt.io/guide/installation/01_linux.html#determine-location-of-the-adapter-and-checking-user-permissions to find USB settings needed for zigbee2mqtt  
+https://www.zigbee2mqtt.io/guide/getting-started/  
+https://github.com/sukesh-ak/setup-mosquitto-with-docker  
+https://www.home-assistant.io/installation/linux  
 
