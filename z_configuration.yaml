@@ -1,0 +1,20 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  # change this to your rasperrypi IP
+  server: mqtt://192.168.86.237
+serial:
+  port: /dev/ttyACM0
+frontend:
+  port: 8080
+advanced:
+  legacy: false
+  homeassistant_legacy_entity_attributes: true
+  legacy_api: false
+  legacy_availability_payload: false
+  log_level: warn
+device_options:
+  legacy: false
+adapter: ezsp
+devices:
