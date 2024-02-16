@@ -3,14 +3,14 @@ config files to run Home Assistant Mqtt broker and zigbee2mqtt on rasberry pi
 
 ## remove starting h_ m_ z_ from files and place to folders following
 
-Zigbee2MQTT/docker-compose.yaml
-Zigbee2MQTT/data/configuration.yaml
-
-homeassistant/homeAssistant/docker-compose.yaml
-homeassistant/homeAssistant/data/configuration.yaml
-
-mqtt/mqtt5/docker-compose.yaml
-mqtt/mqtt5/config/configuration.yaml
+Zigbee2MQTT/docker-compose.yaml  
+Zigbee2MQTT/data/configuration.yaml  
+  
+homeassistant/homeAssistant/docker-compose.yaml  
+homeassistant/homeAssistant/data/configuration.yaml  
+  
+mqtt/mqtt5/docker-compose.yaml  
+mqtt/mqtt5/config/configuration.yaml  
 
 ## got to all folders and start docker with command
 docker compose up -d
